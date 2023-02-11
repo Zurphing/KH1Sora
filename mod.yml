@@ -1,5 +1,5 @@
 title: KH1 Sora
-description: Adds back Sora as he appeared in Kingdom Hearts I, complete with drive form variants. On PC, new HUD art & Sora's voice from Kingdom Hearts I are implemented. 
+description: Adds back Sora as he appeared in Kingdom Hearts I, complete with drive form variants, Halloween Town, Christmas Town, and Timeless River variants. On PC, new HUD art & Sora's voice from Kingdom Hearts I are implemented. 
 assets:
 - name: obj/P_EX100.mdlx
   method: binarc
