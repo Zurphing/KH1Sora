@@ -1,7 +1,20 @@
 title: KH1 Sora - V2.0
-description: Adds back Sora as he appeared in Kingdom Hearts I, complete with drive form variants, Halloween Town, Christmas Town, Timeless River, and Atlantica variants. On PC, new HUD art & Sora's voice from Kingdom Hearts I are implemented, alongside cutscene models. Credits to Mikote111 for the KH1 Outfit Model that is used in cutscenes. 
+description: Adds back Sora as he appeared in Kingdom Hearts I, complete with drive form variants, Halloween Town, Christmas Town, Timeless River, and Atlantica variants. On PC, new HUD art & Sora's voice from Kingdom Hearts I are implemented, alongside cutscene models. 
 assets:
 - name: obj/P_EX100.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Base.tim
+- name: obj/P_EX100_SIDECAR.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -279,6 +292,7 @@ assets:
   - name: remastered\obj\PO06_PLAYER.mdlx\-0.dds
   - name: remastered\obj\PO07_PLAYER.mdlx\-0.dds
   - name: remastered\obj\PO08_PLAYER.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-0.dds
   - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-0.dds
   - name: remastered\obj\WM_EX100.mdlx\-0.dds
   - name: remastered\obj\P_EX100_WM.mdlx\-0.dds
@@ -291,6 +305,7 @@ assets:
   - name: remastered\obj\PO06_PLAYER.mdlx\-1.dds
   - name: remastered\obj\PO07_PLAYER.mdlx\-1.dds
   - name: remastered\obj\PO08_PLAYER.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-1.dds
   - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-1.dds
   - name: remastered\obj\WM_EX100.mdlx\-1.dds
   - name: remastered\obj\P_EX100_WM.mdlx\-1.dds
@@ -304,6 +319,7 @@ assets:
   - name: remastered\obj\PO06_PLAYER.mdlx\-2.dds
   - name: remastered\obj\PO07_PLAYER.mdlx\-2.dds
   - name: remastered\obj\PO08_PLAYER.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-2.dds
   - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-2.dds
   - name: remastered\obj\WM_EX100.mdlx\-2.dds
   - name: remastered\obj\P_EX100_WM.mdlx\-2.dds
@@ -322,6 +338,7 @@ assets:
   - name: remastered\obj\PO06_PLAYER.mdlx\-3.dds
   - name: remastered\obj\PO07_PLAYER.mdlx\-3.dds
   - name: remastered\obj\PO08_PLAYER.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-3.dds
   - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-3.dds
   - name: remastered\obj\WM_EX100.mdlx\-3.dds
   - name: remastered\obj\P_EX100_WM.mdlx\-3.dds
@@ -340,6 +357,7 @@ assets:
   - name: remastered\obj\PO06_PLAYER.mdlx\-4.dds
   - name: remastered\obj\PO07_PLAYER.mdlx\-4.dds
   - name: remastered\obj\PO08_PLAYER.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-4.dds
   - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-4.dds
   - name: remastered\obj\WM_EX100.mdlx\-4.dds
   - name: remastered\obj\P_EX100_WM.mdlx\-4.dds
@@ -353,6 +371,7 @@ assets:
   - name: remastered\obj\PO06_PLAYER.mdlx\-5.dds
   - name: remastered\obj\PO07_PLAYER.mdlx\-5.dds
   - name: remastered\obj\PO08_PLAYER.mdlx\-5.dds
+  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-5.dds
   - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-5.dds
   - name: remastered\obj\WM_EX100.mdlx\-5.dds
   - name: remastered\obj\P_EX100_WM.mdlx\-5.dds
@@ -365,6 +384,11 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100.a.us\-8.dds
+- name: remastered\obj\P_EX100_SIDECAR.a.us\-8.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_SIDECAR.a.us\-8.png
 - name: remastered\obj\P_EX100_AL_CARPET.a.us\-8.dds
   platform: pc
   method: copy
