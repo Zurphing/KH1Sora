@@ -287,6 +287,7 @@ assets:
     method: copy
     source:
     - name: Base_LM.tim
+#Clothes
 - name: remastered\obj\P_EX100.mdlx\-0.dds
   multi:
   - name: remastered\obj\PO06_PLAYER.mdlx\-0.dds
@@ -300,6 +301,7 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100.mdlx\-0.dds
+#Face
 - name: remastered\obj\P_EX100.mdlx\-1.dds
   multi:
   - name: remastered\obj\PO06_PLAYER.mdlx\-1.dds
@@ -314,8 +316,35 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100.mdlx\-1.dds
+#Crown
+- name: remastered\obj\P_EX100.mdlx\-4.dds
+  multi:
+  - name: remastered\obj\P_EX100_BTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_MAGF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_KH1F.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_TRIF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_ULTF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_HTLF.mdlx\-2.dds
+  - name: remastered\obj\PO06_PLAYER.mdlx\-4.dds
+  - name: remastered\obj\PO07_PLAYER.mdlx\-4.dds
+  - name: remastered\obj\PO08_PLAYER.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-4.dds
+  - name: remastered\obj\WM_EX100.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_WM.mdlx\-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100.mdlx\-4.dds
+#Facial Textures: Base Form
+#Eyes
 - name: remastered\obj\P_EX100.mdlx\-2.dds
   multi:
+  - name: remastered\obj\P_EX100_BTLF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_MAGF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_KH1F.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_TRIF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_ULTF.mdlx\-2.dds
   - name: remastered\obj\PO06_PLAYER.mdlx\-2.dds
   - name: remastered\obj\PO07_PLAYER.mdlx\-2.dds
   - name: remastered\obj\PO08_PLAYER.mdlx\-2.dds
@@ -323,11 +352,12 @@ assets:
   - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-2.dds
   - name: remastered\obj\WM_EX100.mdlx\-2.dds
   - name: remastered\obj\P_EX100_WM.mdlx\-2.dds
+  - name: remastered\obj\P_LM100.mdlx\-2.dds
   platform: pc
   method: copy
   source:
   - name: remastered\obj\P_EX100.mdlx\-2.dds
-#Facial Textures: Base Form
+#Mouth
 - name: remastered\obj\P_EX100.mdlx\-3.dds
   multi:
   - name: remastered\obj\P_EX100_BTLF.mdlx\-3.dds
@@ -347,27 +377,15 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100.mdlx\-3.dds
-- name: remastered\obj\P_EX100.mdlx\-4.dds
-  multi:
-  - name: remastered\obj\P_EX100_BTLF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_MAGF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_KH1F.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_TRIF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_ULTF.mdlx\-4.dds
-  - name: remastered\obj\PO06_PLAYER.mdlx\-4.dds
-  - name: remastered\obj\PO07_PLAYER.mdlx\-4.dds
-  - name: remastered\obj\PO08_PLAYER.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-4.dds
-  - name: remastered\obj\WM_EX100.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_WM.mdlx\-4.dds
-  - name: remastered\obj\P_LM100.mdlx\-4.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered\obj\P_EX100.mdlx\-4.dds
+#Crown
 - name: remastered\obj\P_EX100.mdlx\-5.dds
   multi:
+  - name: remastered\obj\P_EX100_BTLF.mdlx\-5.dds
+  - name: remastered\obj\P_EX100_MAGF.mdlx\-5.dds
+  - name: remastered\obj\P_EX100_KH1F.mdlx\-5.dds
+  - name: remastered\obj\P_EX100_TRIF.mdlx\-5.dds
+  - name: remastered\obj\P_EX100_ULTF.mdlx\-5.dds
+  - name: remastered\obj\P_EX100_HTLF.mdlx\-3.dds
   - name: remastered\obj\PO06_PLAYER.mdlx\-5.dds
   - name: remastered\obj\PO07_PLAYER.mdlx\-5.dds
   - name: remastered\obj\PO08_PLAYER.mdlx\-5.dds
@@ -399,6 +417,8 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_LM100.a.us\-0.dds
+  
+#BTLF_BASE
 - name: remastered\obj\P_EX100_BTLF.a.us\-4.dds
   platform: pc
   method: copy
@@ -414,16 +434,8 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_BTLF.mdlx\-1.dds
-- name: remastered\obj\P_EX100_BTLF.mdlx\-2.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered\obj\P_EX100_BTLF.mdlx\-2.dds
-- name: remastered\obj\P_EX100_BTLF.mdlx\-5.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered\obj\P_EX100_BTLF.mdlx\-5.dds
+
+#HTLF_BASE
 - name: remastered\obj\P_EX100_HTLF.a.us\-3.dds
   platform: pc
   method: copy
@@ -439,16 +451,8 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_HTLF.mdlx\-1.dds
-- name: remastered\obj\P_EX100_HTLF.mdlx\-2.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered\obj\P_EX100_HTLF.mdlx\-2.dds
-- name: remastered\obj\P_EX100_HTLF.mdlx\-3.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered\obj\P_EX100_HTLF.mdlx\-3.dds
+
+#KH1F_BASE
 - name: remastered\obj\P_EX100_KH1F.a.us\-9.dds
   platform: pc
   method: copy
@@ -464,16 +468,8 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_KH1F.mdlx\-1.dds
-- name: remastered\obj\P_EX100_KH1F.mdlx\-2.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered\obj\P_EX100_KH1F.mdlx\-2.dds
-- name: remastered\obj\P_EX100_KH1F.mdlx\-5.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered\obj\P_EX100_KH1F.mdlx\-5.dds
+
+#MAGF_BASE
 - name: remastered\obj\P_EX100_MAGF.a.us\-2.dds
   platform: pc
   method: copy
@@ -489,16 +485,8 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_MAGF.mdlx\-1.dds
-- name: remastered\obj\P_EX100_MAGF.mdlx\-2.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered\obj\P_EX100_MAGF.mdlx\-2.dds
-- name: remastered\obj\P_EX100_MAGF.mdlx\-5.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered\obj\P_EX100_MAGF.mdlx\-5.dds
+
+#NM_BASE
 - name: remastered\obj\P_EX100_NM.a.us\-8.dds
   platform: pc
   method: copy
@@ -549,6 +537,8 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_NM.mdlx\-8.dds
+
+#NM_BTLF
 - name: remastered\obj\P_EX100_NM_BTLF.a.us\-4.dds
   platform: pc
   method: copy
@@ -599,6 +589,8 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-8.dds
+
+#NM_HTLF
 - name: remastered\obj\P_EX100_NM_HTLF.a.us\-3.dds
   platform: pc
   method: copy
@@ -639,6 +631,8 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-6.dds
+
+#NM_KH1F
 - name: remastered\obj\P_EX100_NM_KH1F.a.us\-9.dds
   platform: pc
   method: copy
@@ -689,6 +683,8 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-8.dds
+  
+#NM_MAGF
 - name: remastered\obj\P_EX100_NM_MAGF.a.us\-2.dds
   platform: pc
   method: copy
@@ -739,6 +735,8 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_NM_MAGF.mdlx\-8.dds
+
+#NM_TRIF
 - name: remastered\obj\P_EX100_NM_TRIF.a.us\-5.dds
   platform: pc
   method: copy
@@ -789,6 +787,8 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-8.dds
+
+#NM_ULTF
 - name: remastered\obj\P_EX100_NM_ULTF.a.us\-10.dds
   platform: pc
   method: copy
@@ -839,6 +839,8 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-8.dds
+
+#TRIF_BASE
 - name: remastered\obj\P_EX100_TRIF.a.us\-5.dds
   platform: pc
   method: copy
@@ -854,16 +856,8 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_TRIF.mdlx\-1.dds
-- name: remastered\obj\P_EX100_TRIF.mdlx\-2.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered\obj\P_EX100_TRIF.mdlx\-2.dds
-- name: remastered\obj\P_EX100_TRIF.mdlx\-5.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered\obj\P_EX100_TRIF.mdlx\-5.dds
+
+#ULTF_BASE
 - name: remastered\obj\P_EX100_ULTF.a.us\-10.dds
   platform: pc
   method: copy
@@ -879,16 +873,8 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_ULTF.mdlx\-1.dds
-- name: remastered\obj\P_EX100_ULTF.mdlx\-2.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered\obj\P_EX100_ULTF.mdlx\-2.dds
-- name: remastered\obj\P_EX100_ULTF.mdlx\-5.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered\obj\P_EX100_ULTF.mdlx\-5.dds
+
+#BATTLE VOICES
 - name: voice\us\battle\al0_sora.win32.scd
   platform: pc
   method: copy
@@ -964,6 +950,7 @@ assets:
   method: copy
   source:
   - name: voice\us\battle\wi0_sora.win32.scd
+  
 #KH1 Sora: Christmas Town model
 - name: obj/P_EX100_XM.mdlx
   multi:
@@ -1268,11 +1255,11 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_LM100.mdlx\-0.dds
-- name: remastered\obj\P_LM100.mdlx\-2.dds
+- name: remastered\obj\P_LM100.mdlx\-4.dds
   platform: pc
   method: copy
   source:
-  - name: remastered\obj\P_LM100.mdlx\-2.dds
+  - name: remastered\obj\P_LM100.mdlx\-4.dds
   
 #High Poly Models
 - name: obj/H_EX500.mdlx
